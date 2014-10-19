@@ -91,6 +91,12 @@ img {
   display: inline-block;
   vertical-align: middle; }
 
+@font-face {
+    font-family: ENGLISHT;
+    src: "./ENGLISHT.ttl";
+    font-weight:400;
+}
+
 textarea {
   height: auto;
   min-height: 50px; }
@@ -867,7 +873,14 @@ select {
     width: 16.66667%; }
 
   .large-3 {
-    width: 25%; }
+    width: 25%;
+    }
+
+  .heading{
+    float:right;
+    margin-right: 37%;
+    font-family: ENGLISHT;
+  }
 
   .large-4 {
     width: 33.33333%; }
